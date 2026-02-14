@@ -1,0 +1,9 @@
+:root {
+
+    --font-family-main: "Iceberg", sans-serif;
+    --font-family-second: "Roboto", sans-serif;
+
+    font-family: var(--font-family-main);
+
+}
+
