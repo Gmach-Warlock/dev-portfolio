@@ -12,6 +12,7 @@
 
     <title>Portfolio</title>
 
+    <script src="https://kit.fontawesome.com/2708b020da.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 </head>
@@ -59,14 +60,25 @@
 
             <div id="main-container" class="bg-gray-300 text-gray-950">
 
-                <section id="about" class="bg-white mx-2 mb-2 p-3">
-                    <h2 class="text-2xl text-center">About Me</h2>
+                <section id="about" class="bg-white mx-2 mb-2 p-3 flex flex-col">
+
+                    <img src="assets/MyPortraitToon.png" alt="portrait toon" class="w-30 h-auto self-center mt-1"/>
+
+                    <h2 class="text-2xl text-center mb-2">About Me</h2>
+
                     <p>
-                        I was born and raised in Los Angeles and am studying to be a full-stack developer. My interests include guitar, video games, billiards, and recently coding. 
+                        I was born and raised in Los Angeles and am currently studying full-stack web development. My interest include playing guitar, video games, and billiards. Recently I have discovered a passion for coding and building web applications.
                     </p>
+                    
                     <p>
-                        I worked at Costco Wholesale for twenty four years and am hoping to change careers into web development. A website is a perfect place to show my creativity and critical thinking.
+                        After 24 years at Costco Wholesale, I developed strong customer-service, problem-solving, teamwork, and leadership skills. I am now transitioning into web development, where I can combine my creativity and critical thinking to build engaging and functional websites.
                     </p>
+
+                    <p>
+                        Currently I am studying Express, SQL, and Postgres. My goal is to learn and integrate them with my current knowledge to land a role as a junior developer.
+                    </p>
+                    
+
                 </section>
 
                 <section id="skills" class="bg-white mx-2 p-3">
@@ -86,9 +98,9 @@
 
                 <section id="projects" class="bg-white m-2 p-3">
                     <h2 class="text-2xl text-center p-2">Projects</h2>
-                    <div class="flex">
-                        <div class="bg-blue-700 text-white w-[50%] p-2 mr-1 flex flex-col justify-between h-100">
-                            <h3 class="text-center">Fix Fotomatic</h3>
+                    <div class="flex flex-wrap gap-3 outline-1 justify-center">
+                        <div class="bg-blue-700 text-white w-[45%] p-2 mr-1 mt-4 flex flex-col justify-between h-100">
+                            <h3 class="text-center text-xl">Fix Fotomatic</h3>
                             <div class="flex gap-2 justify-center"> 
                                 <img src="assets/FotomaticDesktopPic1.png" alt="web page hero" class="w-60 h-auto p-2">
 
@@ -96,13 +108,21 @@
                             <p class="px-4">In this project we were given broken front end code and asked to debug it. We were also given a wireframe with 3 layouts to follow.</p>
                             <a href="https://g-mach-fotomatic-fixer-project.netlify.app/" class="hover:text-yellow-500 self-center">Visit Page</a>
                         </div>
-                        <div class="bg-blue-700 text-white w-[50%] p-2 ml-1 flex flex-col justify-between h-100">
-                            <h3 class="text-center">Colmar Academy</h3>
+                        <div class="bg-blue-700 text-white w-[45%] p-2 ml-1 mt-4 flex flex-col justify-between h-100">
+                            <h3 class="text-center text-xl">Colmar Academy</h3>
                             <div class="flex gap-2 justify-center">
                                 <img src="/assets/ColmarDesktopPic1.png" alt="web page-banner" class="w-60 h-auto p-2">
                             </div>
                             <p class="px-4">This is a home page for an imaginary college. It is responsive, with mobile and desktop layouts, and it utilizes grid and flexbox. </p>
                             <a href="https://g-mach-colmar-academy-project.netlify.app/" class="hover:text-yellow-500 self-center">Visit Page</a>
+                        </div>
+                        <div class="bg-blue-700 text-white w-[45%] p-2 ml-1 mb-4 flex flex-col justify-between h-100">
+                            <h3 class="text-center text-xl">Mixed Message</h3>
+                            <div class="flex gap-2 justify-center">
+                                <img src="/assets/MessageDesktopPic1.png" alt="web page-banner" class="w-60 h-auto p-2">
+                            </div>
+                            <p class="px-4">This is a javascript exercise where the goal was to create a random message composed of three seperate pieces. Refresh to get a new message</p>
+                            <a href="" class="hover:text-yellow-500 self-center">Visit Page</a>
                         </div>
                     </div>
                 </section>
@@ -110,9 +130,10 @@
                 <section id="contact" class="bg-white m-2 p-3">
                     <h2 class="text-2xl text-center p-2">Contact Me</h2>
                     <ul>
-                        <li>email: <span id="email"><a href="">garyjyam@gmail.com</a></span></li>
-                        <li>linkdin: <a href="https://app.netlify.com/teams/gmach-warlock/projects">https://app.netlify.com/teams/gmach-warlock/projects</a></li>
-                        <li>github <a href="https://www.linkedin.com/in/gary-yamashita-531760227/">https://www.linkedin.com/in/gary-yamashita-531760227/</a></li>
+                        <li><i class="fa-solid fa-at"></i>: <span id="email"><a href="">garyjyam@gmail.com</a></span></li>
+                        <li><i class="fa-brands fa-linkedin"></i>: <a href="https://www.linkedin.com/in/gary-yamashita-531760227/">https://www.linkedin.com/in/gary-yamashita-531760227/</a></li>
+                        <li><i class="fa-brands fa-github"></i>: <a href="https://github.com/Gmach-Warlock"></a>https://github.com/Gmach-Warlock</li>
+                        
                     </ul>
                 </section>
 
@@ -125,6 +146,11 @@
             <h2>
                 &copy; Gary Yamashita 2026
             </h2>
+
+            <p>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </p>
+
 
         </footer>
 
