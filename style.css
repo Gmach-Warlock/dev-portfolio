@@ -7,3 +7,54 @@
 
 }
 
+/* utility classes */
+
+.column-wrapper {
+    flex-flow: column wrap;
+}
+
+/* animations  */
+/* bounce-in */
+
+@keyframes bounce-in {
+
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+        scale: .5;
+    }
+
+    50% {
+        transform: scale(1.2);
+        transform: translateY(-25%);
+    }
+
+    100% {
+        transform: scale(1);
+        transform: translateY(0%);
+        opacity: 100%;
+
+    }
+
+}
+
+.bounce-in {
+    animation: bounce-in 1.5s;
+}
+
+@keyframes background-splitter {
+    0% {
+        background-image: linear-gradient(to right white 50%, grey 100%);
+    }
+
+    100% {
+        background-image: linear-gradient(to right blue 50%, darkblue 100%);
+    }
+}
+
+.bg-split {
+    animation: bg-split 2s;
+}
+
+
+/* bg-[linear-gradient(to_right,blue_50%,darkblue_50%)] */
