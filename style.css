@@ -1,10 +1,11 @@
 :root {
 
-    --font-family-main: "Iceberg", sans-serif;
-    --font-family-second: "Roboto", sans-serif;
+    font-family: "Iceberg", sans-serif;
 
-    font-family: var(--font-family-main);
+}
 
+img {
+    display: block;
 }
 
 /* utility classes */
@@ -42,19 +43,6 @@
     animation: bounce-in 1.5s;
 }
 
-@keyframes background-splitter {
-    0% {
-        background-image: linear-gradient(to right white 50%, grey 100%);
-    }
-
-    100% {
-        background-image: linear-gradient(to right blue 50%, darkblue 100%);
-    }
-}
-
-.bg-split {
-    animation: bg-split 2s;
-}
 
 
 /* bg-[linear-gradient(to_right,blue_50%,darkblue_50%)] */
